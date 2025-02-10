@@ -25,8 +25,8 @@ const page = () => {
           </h3>
           <div className="text-[24px] mx-6 max-w-[600px] w-full">
             <form action="" className="flex flex-col gap-4">
-              <InputField label={'メールアドレス'} icon={'./img/authpage/mail.svg'} placeholder={'例) sample@gmail.com'} />
-              <InputField label={'パスワード'} icon={'./img/authpage/password.svg'} placeholder={'8文字以上の英数字'} />
+              {/* <InputField label={'メールアドレス'} icon={'./img/authpage/mail.svg'} placeholder={'例) sample@gmail.com'} />
+              <InputField label={'パスワード'} icon={'./img/authpage/password.svg'} placeholder={'8文字以上の英数字'} /> */}
               <div className="mt-6 mb-10 flex gap-2">
                 <input type="checkbox" className=" w-5" name="2fa" id="2fa" />
                 <label htmlFor="2fa">２段階認証を有効にする</label>
