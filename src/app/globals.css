@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --clr-blue: #2abfb0;
+  --clr-blue-gradient: linear-gradient(to bottom, #75d1c1, #0d9890);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,7 +16,32 @@
   }
 }
 
+@font-face {
+  font-family: "Mplus";
+  src: url("/fonts/MPLUSRounded1c-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Mplus", sans-serif;
+  margin: 0;
+}
+
+.bg-custome_blue_gradient {
+  background-image: linear-gradient(to bottom, #75d1c1, #0d9890);
+}
+
+.bth-blue {
+  color: white;
+}
+
+.bth-blue-gradient {
+  color: white;
+}
+
+.bth-outer-blue {
+  color: var(--clr-blue);
+  border: 1px solid var(--clr-blue);
+  border-radius: 100%;
 }
