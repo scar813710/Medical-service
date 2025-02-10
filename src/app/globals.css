@@ -36,6 +36,10 @@ body {
   color: white;
 }
 
+.bth-blue-gradient {
+  color: white;
+}
+
 .bth-outer-blue {
   color: var(--clr-blue);
   border: 1px solid var(--clr-blue);
